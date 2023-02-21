@@ -13,7 +13,14 @@
  * doesArrayIncludeItemsBetweenVals([2, 4, 2], 5, 10) => false
  */
 
-// Your code goes here...
+function doesArrayIncludeItemsBetweenVals(arr, val1, val2){
+  for (var i = 0; i < arr.length; i++){
+    if (arr[i] > val1 && arr[i] < val2){
+      return true;
+    }
+  }
+  return false;
+}
 
 
 
@@ -30,6 +37,30 @@
  * getValueWithConditionOne(40, 40) => 80;
  * getValueWithConditionOne(20, 30) => 100;
  */
+
+function getValueWithConditionOne(num1, num2){
+  if (num1 == 40 && num2 == 40){
+    return num1 + num2;
+  }else {
+    return (num1 + num2) * 2;
+  }
+}
+
+function getValueWithConditionTwo(num1, num2){
+  if (num1 == 40 && num2 == 40){
+    return num1 + num2;
+  }else {
+    return (num1 + num2) * 2;
+  }
+}
+
+function getValueWithConditionThree(num1, num2){
+  if (num1 == 40 && num2 == 40){
+    return num1 + num2;
+  }else {
+    return (num1 + num2) * 2;
+  }
+}
 
 
 
