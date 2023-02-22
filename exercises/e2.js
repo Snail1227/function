@@ -35,7 +35,7 @@ const room3 = rectArea(4, 8);
  * totalRoomsArea(24, 35, 24) => 83
  */
 
-function totalRoomsArea(area1, area2, area3){
+function totalRoomsArea(area1, area2, area3) {
   return area1 + area2 + area3;
 }
 

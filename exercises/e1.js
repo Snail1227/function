@@ -41,7 +41,7 @@ function logMyMessage(message) {
  * logMessageWithMyName('Andrey') => 'My name is Andrey!'
 */
 
-function logMessageWithMyName(name){
+function logMessageWithMyName(name) {
   console.log("My name is " + name + "!");
 }
 
@@ -57,7 +57,7 @@ function logMessageWithMyName(name){
  * logMyInfo('Andrey', 18) => 'My name is Andrey. I am 18 years old!'
 */
 
-function logMyInfo(name, age){
+function logMyInfo(name, age) {
   console.log("My name is " + name + ". I am " + age + " years old!");
 }
 
