@@ -45,15 +45,12 @@ function getValueWithConditionOne(num1, num2) {
   return (num1 + num2) * 2;
 }
 
-function getValueWithConditionTwo(num1, num2) {
+const getValueWithConditionTwo = function (num1, num2) {
   return num1 === 40 && num2 === 40 ? num1 + num2 : (num1 + num2) * 2;
 }
 
 const getValueWithConditionThree = (num1, num2) => {
-  if (num1 == 40 && num2 == 40) {
-    return num1 + num2;
-  }
-  return (num1 + num2) * 2;
+  return num1 === 40 && num2 === 40 ? num1 + num2 : (num1 + num2) * 2;
 }
 
 
